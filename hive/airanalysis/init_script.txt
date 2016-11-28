@@ -1,0 +1,2 @@
+rm -Rf $HIVE_HOME/metastore_db
+schematool -initSchema -dbType derby
